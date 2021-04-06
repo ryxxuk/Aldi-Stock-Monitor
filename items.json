@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "productSku": "709380438453400",
+      "useProxy": true,
+      "interval": 30,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        }
+      ]
+    }
+  ]
+}

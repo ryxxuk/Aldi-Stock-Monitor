@@ -1,8 +1,63 @@
 {
   "items": [
     {
-      "productSku": "709380438453400",
-      "useProxy": true,
+      "name": "Gardenline Dual Fuel BBQ",
+      "price": "149.99",
+      "productSku": "709910444155400",
+      "image": "https://cdn.aldi-digital.co.uk//Gardenline-Dual-Fuel-BBQ-A.jpg?o=%244iwhAjO%40pue7lUqr891hc4nZ%248j&V=DWPp&w=480&h=600&p=2&q=77",
+      "useProxy": false,
+      "interval": 30,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        }
+      ]
+    },
+    {
+      "name": "Gardenline BBQ Pizza Oven",
+      "price": "39.99",
+      "productSku": "804913451084200",
+      "image": "https://cdn.aldi-digital.co.uk//804913451084200-A.jpg?o=yFXd0XikCqsvyh%24DjIDSnrd447wj&V=pXTY&w=480&h=600&p=2&q=77",
+      "useProxy": false,
+      "interval": 30,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        }
+      ]
+    },
+    {
+      "name": "Gardenline 2000W Patio Heater",
+      "price": "39.99",
+      "productSku": "709938458399000",
+      "image": "https://cdn.aldi-digital.co.uk//709938458399000-B.jpg?o=fkXrXT%24Y%24Uf7GE6ypslG7McnjIkj&V=AEvZ&w=480&h=600&p=2&q=77",
+      "useProxy": false,
+      "interval": 30,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        }
+      ]
+    },
+    {
+      "name": "Gardenline Square Fire Basket",
+      "price": "24.99",
+      "productSku": "805294467399400",
+      "image": "https://cdn.aldi-digital.co.uk//805294467399400-A.jpg?o=HDl1GHCLLGiXrC5jHR8ud8ztJ9Uj&V=r2jg&w=480&h=600&p=2&q=77",
+      "useProxy": false,
+      "interval": 30,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        }
+      ]
+    },
+    {
+      "name": "Gardenline Hanging Egg Chair",
+      "price": "149.99",
+      "productSku": "804050451817800",
+      "image": "https://cdn.aldi-digital.co.uk//804050451817800-B.jpg?o=fl6TefL%242zFtXuT%24tN%24aN0qK0wAj&V=QfzY&w=480&h=600&p=2&q=77",
+      "useProxy": false,
       "interval": 30,
       "webhooks": [
         {

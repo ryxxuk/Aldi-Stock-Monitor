@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Aldi_Monitor.Models;
 
 namespace Aldi_Monitor.Functions
 {

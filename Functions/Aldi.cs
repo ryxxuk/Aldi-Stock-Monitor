@@ -39,7 +39,7 @@ namespace Aldi_Monitor.Functions
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
+                OutputToFile.WriteLine(e.ToString());
                 return null;
             }
         }

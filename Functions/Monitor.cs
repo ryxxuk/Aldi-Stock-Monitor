@@ -27,10 +27,7 @@ namespace Aldi_Monitor.Functions
 
             var comingSoon = Convert.ToBoolean(comingSoonMatches[0].Groups[1].Value);
             
-            if (!inStock || comingSoon)
-            {
-                return 0;
-            }
+            if (!inStock || comingSoon) return 0;
 
             var stockCountRegex = new Regex("data-stock-level=\"(.*?)\"");
 
@@ -38,7 +35,7 @@ namespace Aldi_Monitor.Functions
 
             var stockCount = Convert.ToInt32(stockCountMatches[0].Groups[1].Value);
 
-            return stockCount;
+            return stockCount <= 2 ? 0 : stockCount;
         }
     }
 }

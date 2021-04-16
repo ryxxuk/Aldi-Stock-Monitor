@@ -29,10 +29,10 @@ namespace Aldi_Monitor
 
            foreach (var item in itemsToBeMonitored)
            {
-               Console.WriteLine($"[{DateTime.Now}] Starting new task!{item.Name} [{(item.UseProxy ? "Not Using Proxy" : "Using Proxy")}]");
+               OutputToFile.WriteLine($"Starting new task!{item.Name} [{(item.UseProxy ? "USING PROXY" : "NOT USING PROXY")}]");
                StartMonitorTask(item);
-               Console.WriteLine($"[{DateTime.Now}] Sleeping {item.Interval / 1000 / itemsToBeMonitored.Count} seconds!");
-               Thread.Sleep(item.Interval / itemsToBeMonitored.Count);
+               OutputToFile.WriteLine($"Sleeping 10 seconds!");
+               Thread.Sleep(10*1000);
            }
         }
 
@@ -72,7 +72,7 @@ namespace Aldi_Monitor
 
         public void StartMonitorTask(Item item)
         {
-            Console.WriteLine($"[{DateTime.Now}] Starting task for {item.Name}!");
+            OutputToFile.WriteLine($"Starting task for {item.Name}!");
             Task.Run(() => MonitorTask(item));
         }
 
@@ -99,20 +99,20 @@ namespace Aldi_Monitor
                         {
                             discordPings++;
 
-                            Console.WriteLine($"[{DateTime.Now}] {item.Name} Stock Found, Status changed! Notifying Discord!");
+                            OutputToFile.WriteLine($"{item.Name} #INSTOCK NOTIFIYING DISCORD");
                             
                             Functions.Discord.NotifyDiscordAsync(item, response);
                         }
                         else
                         {
-                            Console.WriteLine($"[{DateTime.Now}] {item.Name} Stock Found, Status unchanged!");
+                            OutputToFile.WriteLine($"{item.Name} #STOCKUNCHANGED");
                         }
 
                         item.InStock = true;
                     }
                     else
                     {
-                        Console.WriteLine($"[{DateTime.Now}] {item.Name} No Stock Found!");
+                        OutputToFile.WriteLine($"{item.Name} #OUTOFSTOCK");
                         item.InStock = false;
                     }
 
@@ -123,11 +123,11 @@ namespace Aldi_Monitor
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
-                Thread.Sleep(60000);
+                OutputToFile.WriteLine(e.ToString());
+                Thread.Sleep(120000);
                 errors++;
                 UpdateTitle();
-                Console.WriteLine($"Slept 60 seconds. Restarting task for {item.Name}!");
+                OutputToFile.WriteLine($"Slept 120 seconds. Restarting task for {item.Name}!");
                 Task.Run(() => MonitorTask(item));
             }
         }

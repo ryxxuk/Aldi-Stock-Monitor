@@ -11,10 +11,7 @@ namespace Aldi_Monitor.Functions
 
         private static object _MessageLock = new object();
 
-        private static OutputToFile outputToFileSingleton
-        {
-            get { return _outputToFileSingleton ??= new OutputToFile(); }
-        }
+        private static OutputToFile OutputToFileSingleton => _outputToFileSingleton ??= new OutputToFile();
 
         public StreamWriter  sw { get; set; }
 
@@ -44,7 +41,7 @@ namespace Aldi_Monitor.Functions
                 Console.ResetColor();
 
                 Console.WriteLine(str);
-                outputToFileSingleton.sw.WriteLine("\n" + str);
+                OutputToFileSingleton.sw.WriteLine("\n" + str);
             }
         }
 
@@ -53,7 +50,7 @@ namespace Aldi_Monitor.Functions
             lock (_MessageLock)
             {
                 Console.Write(str);
-                outputToFileSingleton.sw.Write(str);
+                OutputToFileSingleton.sw.Write(str);
             }
         }
 

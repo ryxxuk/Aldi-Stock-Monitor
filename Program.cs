@@ -12,10 +12,6 @@ namespace Aldi_Monitor
 {
     internal class Program
     {
-        private int requestNum = 0;
-        private int discordPings = 0;
-        private int errors = 0;
-
         static void Main()
         {
             var app = new Program();
@@ -97,7 +93,7 @@ namespace Aldi_Monitor
                     {
                         if (!item.InStock)
                         {
-                            discordPings++;
+                            Globals.DiscordPings++;
 
                             OutputToFile.WriteLine($"{item.Name} #INSTOCK NOTIFIYING DISCORD");
                             
@@ -116,7 +112,7 @@ namespace Aldi_Monitor
                         item.InStock = false;
                     }
 
-                    requestNum++;
+                    Globals.RequestNum++;
                     UpdateTitle();
                     Thread.Sleep(item.Interval);
                 }
@@ -125,7 +121,7 @@ namespace Aldi_Monitor
             {
                 OutputToFile.WriteLine(e.ToString());
                 Thread.Sleep(120000);
-                errors++;
+                Globals.Errors++;
                 UpdateTitle();
                 OutputToFile.WriteLine($"Slept 120 seconds. Restarting task for {item.Name}!");
                 Task.Run(() => MonitorTask(item));
@@ -133,7 +129,7 @@ namespace Aldi_Monitor
         }
         public void UpdateTitle()
         {
-            Console.Title = $"Requests Made: {requestNum} | Discord Pings: {discordPings} | Errors: {errors}";
+            Console.Title = $"Requests Made: {Globals.RequestNum} | Discord Pings: {Globals.DiscordPings} | Errors: {Globals.Errors}";
         }
     }
 }

@@ -9,7 +9,7 @@ using Aldi_Monitor.Models;
 
 namespace Aldi_Monitor.Functions
 {
-    class Aldi
+    internal class Aldi
     {
         public static async Task<string> GetAvailability(string sku)
         {
@@ -39,7 +39,7 @@ namespace Aldi_Monitor.Functions
             }
             catch (Exception e)
             {
-                OutputToFile.WriteLine(e.ToString());
+                OutputToFile.WriteLine($"ERROR: {e}");
                 return null;
             }
         }

@@ -8,7 +8,7 @@ using Discord.Webhook;
 
 namespace Aldi_Monitor.Functions
 {
-    class Discord
+    internal class Discord
     {
         public static async void NotifyDiscordAsync(Item item, int stock)
         {

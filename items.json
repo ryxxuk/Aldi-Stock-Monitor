@@ -1,15 +1,27 @@
 {
   "items": [
     {
-      "name": "Gardenline Dual Fuel BBQ",
+      "name": "Gardenline Hanging Egg Chair",
       "price": "149.99",
-      "productSku": "709910444155400",
-      "image": "https://cdn.aldi-digital.co.uk//Gardenline-Dual-Fuel-BBQ-A.jpg?o=%244iwhAjO%40pue7lUqr891hc4nZ%248j&V=DWPp&w=480&h=600&p=2&q=77",
-      "useProxy": false,
-      "interval": 30,
+      "productSku": "804050451817800",
+      "image": "https://cdn.aldi-digital.co.uk//804050451817800-B.jpg?o=fl6TefL%242zFtXuT%24tN%24aN0qK0wAj&V=QfzY&w=480&h=600&p=2&q=77",
+      "useProxy": true,
+      "interval": 5,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
         }
       ]
     },
@@ -18,11 +30,23 @@
       "price": "39.99",
       "productSku": "804913451084200",
       "image": "https://cdn.aldi-digital.co.uk//804913451084200-A.jpg?o=yFXd0XikCqsvyh%24DjIDSnrd447wj&V=pXTY&w=480&h=600&p=2&q=77",
-      "useProxy": false,
-      "interval": 30,
+      "useProxy": true,
+      "interval": 5,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
         }
       ]
     },
@@ -31,37 +55,223 @@
       "price": "39.99",
       "productSku": "709938458399000",
       "image": "https://cdn.aldi-digital.co.uk//709938458399000-B.jpg?o=fkXrXT%24Y%24Uf7GE6ypslG7McnjIkj&V=AEvZ&w=480&h=600&p=2&q=77",
-      "useProxy": false,
-      "interval": 30,
+      "useProxy": true,
+      "interval": 5,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
         }
       ]
     },
     {
-      "name": "Gardenline Square Fire Basket",
-      "price": "24.99",
-      "productSku": "805294467399400",
-      "image": "https://cdn.aldi-digital.co.uk//805294467399400-A.jpg?o=HDl1GHCLLGiXrC5jHR8ud8ztJ9Uj&V=r2jg&w=480&h=600&p=2&q=77",
-      "useProxy": false,
-      "interval": 30,
+      "name": "Gardenline Kamado Ceramic Egg BBQ",
+      "price": "349.99",
+      "productSku": "710081460879600",
+      "image": "https://cdn.aldi-digital.co.uk//710081460879600-A.jpg?o=eJlXnNcEerxGeZ4McUcX728tii8j&V=XK8t&w=360&h=450&p=2&q=83",
+      "useProxy": true,
+      "interval": 5,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
         }
       ]
     },
     {
-      "name": "Gardenline Hanging Egg Chair",
-      "price": "149.99",
-      "productSku": "804050451817800",
-      "image": "https://cdn.aldi-digital.co.uk//804050451817800-B.jpg?o=fl6TefL%242zFtXuT%24tN%24aN0qK0wAj&V=QfzY&w=480&h=600&p=2&q=77",
-      "useProxy": false,
-      "interval": 30,
+      "name": "Steel Chimenea Round",
+      "price": "49.99",
+      "productSku": "710105465410400",
+      "image": "https://cdn.aldi-digital.co.uk//710105465410400-A.jpg?o=NDE3ggF7WtLgmGknUi8woroGYtYj&V=euBK&w=480&h=600&p=2&q=77",
+      "useProxy": true,
+      "interval": 5,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+        }
+      ]
+    },
+    {
+      "name": "Intex Spa Pool",
+      "price": "349.99",
+      "productSku": "803977452873600",
+      "image": "https://cdn.aldi-digital.co.uk//803977452873600-A.jpg?o=59Y%24ryOST8ncVsfIF5QZARC3Cv4j&V=%24TAw&w=360&h=450&p=2&q=83",
+      "useProxy": true,
+      "interval": 5,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+        }
+      ]
+    },
+    {
+      "name": "Cream/Grey Rattan Sofa With Cover",
+      "price": "269.95",
+      "productSku": "710017460865400",
+      "image": "https://cdn.aldi-digital.co.uk//710017460865400-A.jpg?o=VDBau55Wiot3t0YnhIqUVH6SsD4j&V=3szK&w=360&h=450&p=2&q=83",
+      "useProxy": true,
+      "interval": 5,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+        }
+      ]
+    },
+    {
+      "name": "Anthracite Rattan Sofa With Cover",
+      "price": "269.95",
+      "productSku": "710019460866200",
+      "image": "https://cdn.aldi-digital.co.uk//710019460866200-A.jpg?o=1a09bYHvky8KKtco%40TEblPpHH7sj&V=WLpj&w=360&h=450&p=2&q=83",
+      "useProxy": true,
+      "interval": 5,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+        }
+      ]
+    },
+    {
+      "name": "Philips PerfectDraft Beer Dispenser",
+      "price": "199.99",
+      "productSku": "707856421070400",
+      "image": "https://cdn.aldi-digital.co.uk//707856421070400-A.jpg?o=cWeSQqiX4b2%24M27orX7bGKOqgYoj&V=MS1L&w=480&h=600&p=2&q=77",
+      "useProxy": true,
+      "interval": 10,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+        }
+      ]
+    },
+    {
+      "name": "Gardenline Kettle BBQ Trolley",
+      "price": "99.99",
+      "productSku": "00000064399900",
+      "image": "https://cdn.aldi-digital.co.uk//00000064399900-A.jpg?o=5bF0vROnPX2mGfYcgE8fT7lDWScj&V=qgL5&w=360&h=450&p=2&q=83",
+      "useProxy": true,
+      "interval": 10,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+        }
+      ]
+    },
+    {
+      "name": "Gardenline Decorative Gazebo",
+      "price": "99.99",
+      "productSku": "709940453422200",
+      "image": "https://cdn.aldi-digital.co.uk//709940453422200-A.jpg?o=mMdyFQIWvDgEV4XTOoAxol7eBjsj&V=GeCQ&w=480&h=600&p=2&q=77",
+      "useProxy": true,
+      "interval": 10,
+      "webhooks": [
+        {
+          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
+        },
+        {
+          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
         }
       ]
     }

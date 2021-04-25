@@ -41,6 +41,8 @@ namespace Aldi_Monitor.Functions
                 Console.ResetColor();
 
                 Console.WriteLine(str);
+
+                str = $"[{DateTime.Now}] [ALDI] {str}";
                 OutputToFileSingleton.sw.WriteLine("\n" + str);
             }
         }

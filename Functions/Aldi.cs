@@ -11,7 +11,7 @@ namespace Aldi_Monitor.Functions
 {
     internal class Aldi
     {
-        public static async Task<string> GetAvailability(string sku)
+        public static async Task<string> GetAvailability(string sku, WebProxy proxy = null)
         {
             try
             {
@@ -21,6 +21,12 @@ namespace Aldi_Monitor.Functions
                 {
                     AutomaticDecompression = DecompressionMethods.GZip
                 };
+
+                if (proxy != null)
+                {
+                    handler.Proxy = proxy;
+                    handler.Credentials = CredentialCache.DefaultNetworkCredentials;
+                }
 
                 using var client = new HttpClient(handler);
 

@@ -27,8 +27,8 @@ namespace Aldi_Monitor
            {
                OutputToFile.WriteLine($"Starting new task!{item.Name} [{(item.UseProxy ? "USING PROXY" : "NOT USING PROXY")}]");
                StartMonitorTask(item);
-               OutputToFile.WriteLine($"Sleeping 10 seconds!");
-               Thread.Sleep(10*1000);
+               OutputToFile.WriteLine($"Sleeping 3 seconds!");
+               Thread.Sleep(3*1000);
            }
         }
 
@@ -59,6 +59,11 @@ namespace Aldi_Monitor
                 }
 
                 item.Webhooks = webhooks;
+
+                if (item.UseProxy)
+                {
+                    item.Proxy = Proxy.GetNewProxy();
+                }
 
                 itemsToBeMonitored.Add(item);
             }
@@ -129,7 +134,7 @@ namespace Aldi_Monitor
         }
         public void UpdateTitle()
         {
-            Console.Title = $"Requests Made: {Globals.RequestNum} | Discord Pings: {Globals.DiscordPings} | Errors: {Globals.Errors}";
+            Console.Title = $"[Aldi] Requests: {Globals.RequestNum} | Pings: {Globals.DiscordPings} | Errors: {Globals.Errors}";
         }
     }
 }

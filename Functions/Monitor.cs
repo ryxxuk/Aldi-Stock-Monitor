@@ -10,8 +10,8 @@ namespace Aldi_Monitor.Functions
     public class Monitor
     {
         public static async Task<int> MonitorProduct(Item item)
-        { 
-            var response = await Aldi.GetAvailability(item.ProductSku);
+        {
+            var response = await Aldi.GetAvailability(item.ProductSku, item.Proxy);
 
             response = response.Replace(@"\", string.Empty);
 

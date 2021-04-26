@@ -40,7 +40,7 @@ namespace Aldi_Monitor.Functions
 
             var randomProxy = Globals.Proxies.ElementAt(Globals.ProxyNum);
 
-            OutputToFile.WriteLine($"Trying following proxy: {Globals.ProxyNum}");
+            LoggingService.WriteLine($"Trying following proxy: {Globals.ProxyNum}");
             Globals.ProxyNum++;
 
             return randomProxy;

@@ -45,7 +45,7 @@ namespace Aldi_Monitor.Functions
             }
             catch (Exception e)
             {
-                OutputToFile.WriteLine($"ERROR: {e}");
+                LoggingService.WriteLine($"ERROR: {e}");
                 return null;
             }
         }

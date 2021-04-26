@@ -35,7 +35,7 @@ namespace Aldi_Monitor.Functions
                 await client.SendMessageAsync("", false, embeds: embeds);
             }
 
-            OutputToFile.Write("\nDISCORD PING SENT!");
+            LoggingService.Write("\nDISCORD PING SENT!");
         }
     }
 }

@@ -35,7 +35,7 @@ namespace Aldi_Monitor.Functions
 
             var stockCount = Convert.ToInt32(stockCountMatches[0].Groups[1].Value);
 
-            return stockCount <= 2 ? 0 : stockCount;
+            return stockCount;
         }
     }
 }

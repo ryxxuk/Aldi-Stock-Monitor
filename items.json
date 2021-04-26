@@ -6,7 +6,7 @@
       "productSku": "804050451817800",
       "image": "https://cdn.aldi-digital.co.uk//804050451817800-B.jpg?o=fl6TefL%242zFtXuT%24tN%24aN0qK0wAj&V=QfzY&w=480&h=600&p=2&q=77",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -31,7 +31,7 @@
       "productSku": "804913451084200",
       "image": "https://cdn.aldi-digital.co.uk//804913451084200-A.jpg?o=yFXd0XikCqsvyh%24DjIDSnrd447wj&V=pXTY&w=480&h=600&p=2&q=77",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -56,7 +56,7 @@
       "productSku": "709938458399000",
       "image": "https://cdn.aldi-digital.co.uk//709938458399000-B.jpg?o=fkXrXT%24Y%24Uf7GE6ypslG7McnjIkj&V=AEvZ&w=480&h=600&p=2&q=77",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -81,7 +81,7 @@
       "productSku": "710081460879600",
       "image": "https://cdn.aldi-digital.co.uk//710081460879600-A.jpg?o=eJlXnNcEerxGeZ4McUcX728tii8j&V=XK8t&w=360&h=450&p=2&q=83",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -106,7 +106,7 @@
       "productSku": "710105465410400",
       "image": "https://cdn.aldi-digital.co.uk//710105465410400-A.jpg?o=NDE3ggF7WtLgmGknUi8woroGYtYj&V=euBK&w=480&h=600&p=2&q=77",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -131,7 +131,7 @@
       "productSku": "803977452873600",
       "image": "https://cdn.aldi-digital.co.uk//803977452873600-A.jpg?o=59Y%24ryOST8ncVsfIF5QZARC3Cv4j&V=%24TAw&w=360&h=450&p=2&q=83",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -156,7 +156,7 @@
       "productSku": "710017460865400",
       "image": "https://cdn.aldi-digital.co.uk//710017460865400-A.jpg?o=VDBau55Wiot3t0YnhIqUVH6SsD4j&V=3szK&w=360&h=450&p=2&q=83",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -181,7 +181,7 @@
       "productSku": "710019460866200",
       "image": "https://cdn.aldi-digital.co.uk//710019460866200-A.jpg?o=1a09bYHvky8KKtco%40TEblPpHH7sj&V=WLpj&w=360&h=450&p=2&q=83",
       "useProxy": true,
-      "interval": 5,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -206,7 +206,7 @@
       "productSku": "707856421070400",
       "image": "https://cdn.aldi-digital.co.uk//707856421070400-A.jpg?o=cWeSQqiX4b2%24M27orX7bGKOqgYoj&V=MS1L&w=480&h=600&p=2&q=77",
       "useProxy": true,
-      "interval": 10,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -231,7 +231,7 @@
       "productSku": "00000064399900",
       "image": "https://cdn.aldi-digital.co.uk//00000064399900-A.jpg?o=5bF0vROnPX2mGfYcgE8fT7lDWScj&V=qgL5&w=360&h=450&p=2&q=83",
       "useProxy": true,
-      "interval": 10,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
@@ -256,7 +256,7 @@
       "productSku": "709940453422200",
       "image": "https://cdn.aldi-digital.co.uk//709940453422200-A.jpg?o=mMdyFQIWvDgEV4XTOoAxol7eBjsj&V=GeCQ&w=480&h=600&p=2&q=77",
       "useProxy": true,
-      "interval": 10,
+      "interval": 3,
       "webhooks": [
         {
           "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"

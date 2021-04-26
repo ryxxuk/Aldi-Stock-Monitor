@@ -3,25 +3,25 @@ using System.IO;
 
 namespace Aldi_Monitor.Functions
 {
-    public class OutputToFile
+    public class LoggingService
     {
         private readonly string _logDirPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory ?? string.Empty, "logs");
 
-        private static OutputToFile _outputToFileSingleton;
+        private static LoggingService _loggingServiceSingleton;
 
         private static object _MessageLock = new object();
 
-        private static OutputToFile OutputToFileSingleton => _outputToFileSingleton ??= new OutputToFile();
+        private static LoggingService LoggingServiceSingleton => _loggingServiceSingleton ??= new LoggingService();
 
         public StreamWriter  sw { get; set; }
 
-        public OutputToFile()
+        public LoggingService()
         {
             EnsureLogDirectoryExists();
             InstantiateStreamWriter();
         }
 
-        ~OutputToFile()
+        ~LoggingService()
         {
             if (sw == null) return;
             try
@@ -43,7 +43,7 @@ namespace Aldi_Monitor.Functions
                 Console.WriteLine(str);
 
                 str = $"[{DateTime.Now}] [ALDI] {str}";
-                OutputToFileSingleton.sw.WriteLine("\n" + str);
+                LoggingServiceSingleton.sw.WriteLine("\n" + str);
             }
         }
 
@@ -52,7 +52,7 @@ namespace Aldi_Monitor.Functions
             lock (_MessageLock)
             {
                 Console.Write(str);
-                OutputToFileSingleton.sw.Write(str);
+                LoggingServiceSingleton.sw.Write(str);
             }
         }
 

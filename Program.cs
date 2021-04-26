@@ -25,9 +25,9 @@ namespace Aldi_Monitor
 
            foreach (var item in itemsToBeMonitored)
            {
-               OutputToFile.WriteLine($"Starting new task!{item.Name} [{(item.UseProxy ? "USING PROXY" : "NOT USING PROXY")}]");
+               LoggingService.WriteLine($"Starting new task!{item.Name} [{(item.UseProxy ? "USING PROXY" : "NOT USING PROXY")}]");
                StartMonitorTask(item);
-               OutputToFile.WriteLine($"Sleeping 3 seconds!");
+               LoggingService.WriteLine($"Sleeping 3 seconds!");
                Thread.Sleep(3*1000);
            }
         }
@@ -73,7 +73,7 @@ namespace Aldi_Monitor
 
         public void StartMonitorTask(Item item)
         {
-            OutputToFile.WriteLine($"Starting task for {item.Name}!");
+            LoggingService.WriteLine($"Starting task for {item.Name}!");
             Task.Run(() => MonitorTask(item));
         }
 
@@ -100,20 +100,20 @@ namespace Aldi_Monitor
                         {
                             Globals.DiscordPings++;
 
-                            OutputToFile.WriteLine($"{item.Name} #INSTOCK NOTIFIYING DISCORD");
+                            LoggingService.WriteLine($"{item.Name} #INSTOCK NOTIFIYING DISCORD");
                             
                             Functions.Discord.NotifyDiscordAsync(item, response);
                         }
                         else
                         {
-                            OutputToFile.WriteLine($"{item.Name} #STOCKUNCHANGED");
+                            LoggingService.WriteLine($"{item.Name} #STOCKUNCHANGED");
                         }
 
                         item.InStock = true;
                     }
                     else
                     {
-                        OutputToFile.WriteLine($"{item.Name} #OUTOFSTOCK");
+                        LoggingService.WriteLine($"{item.Name} #OUTOFSTOCK");
                         item.InStock = false;
                     }
 
@@ -124,11 +124,11 @@ namespace Aldi_Monitor
             }
             catch (Exception e)
             {
-                OutputToFile.WriteLine(e.ToString());
+                LoggingService.WriteLine(e.ToString());
                 Thread.Sleep(120000);
                 Globals.Errors++;
                 UpdateTitle();
-                OutputToFile.WriteLine($"Slept 120 seconds. Restarting task for {item.Name}!");
+                LoggingService.WriteLine($"Slept 120 seconds. Restarting task for {item.Name}!");
                 Task.Run(() => MonitorTask(item));
             }
         }

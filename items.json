@@ -9,19 +9,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/"
         }
       ]
     },
@@ -34,19 +22,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -59,19 +35,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -84,19 +48,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -109,19 +61,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -134,19 +74,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -159,19 +87,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -184,19 +100,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -209,19 +113,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -234,19 +126,7 @@
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     },
@@ -254,24 +134,12 @@
       "name": "Gardenline Decorative Gazebo",
       "price": "99.99",
       "productSku": "709940453422200",
-      "image": "https://cdn.aldi-digital.co.uk//709940453422200-A.jpg?o=mMdyFQIWvDgEV4XTOoAxol7eBjsj&V=GeCQ&w=480&h=600&p=2&q=77",
+      "image": "https://cdn.aldi-digital.co.uk//709940453422200-A.jpg?o=&V=GeCQ&w=480&h=600&p=2&q=77",
       "useProxy": true,
       "interval": 3,
       "webhooks": [
         {
-          "url": "https://discord.com/api/webhooks/781464042228416543/9fPar2hXP9GqmgbstzVvEkFL6EMrY9lymNUkwWRi7LvzqhWbyWWmI5sCG8eWetCIXTOy"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/829699168125452300/pSlKWOH4-4-RmWsKnMD-jKnupa38osqPunibpZxo8p5BZwtiGwgXKpdIu3cZdxPSKi2b"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831276546182217748/s96Ni6vYi88pvU1cBwmepGvnVFtgFB_vn4P2jZLLyuHlEPq9ir2EH1NtjchdWOrD8Y2U"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831515342563442698/A5kffBitsp9xtlDfKr3Dc5fh6fV6SpiKoyoiD1kDqKqb_DCRVu8KFkDRk9nsdnXJqKQ-"
-        },
-        {
-          "url": "https://discord.com/api/webhooks/831520133909708832/2kXfTTlPsmt0oOnVO8kDVG8pZaLDq2VK9Zrh7UqWYxbQLf9wLwRGG3zaqIk1OpucgjsV"
+          "url": "https://discord.com/api/webhooks/781464042228416543/"
         }
       ]
     }
